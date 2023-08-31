@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/batik.png);
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Space Mono', monospace; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(244, 238, 238, 0.9);
+    box-shadow: 0px 0px 4px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+svg {
+    overflow: hidden;
+}
+.sosmed{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E2C799;
+}
+.sosmed .conten-sosmed{
+    background-color: #C08261;
+    width: auto;
+    padding: 0 18px;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 100px;
+}
+
+.sosmed .conten-sosmed a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.sosmed .conten-sosmed a:hover{
+    color: black;
+}
+
+.container {
+    max-width: 550px;
+    margin: 100px auto;
+    height: auto;
+    box-shadow: 1px 2px 3px;
+    border-radius: 10px;
+    background-color: #f4f0f0;
+}
+
+.container2 {
+    padding: 20px;
+}
+
+.container .nama {
+    text-indent: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: #E2C799;
+    padding: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container .nama img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.email p span {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.domisili h3 {
+    width: 100px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+.email h3 {
+    width: 100px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+.Summary h3 {
+    width: 100px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+.Experience h3 {
+    width: 160px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+.Pendidikan h3 {
+    width: 120px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+.Organisasi h3 {
+    width: 190px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    color: white;
+    background-color: #C08261;
+}
+
+p,
+ul,
+ol {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E4E4D0;
+    padding: 8px;
+    top: 0;
+    left: 0;
+}
+
+footer span a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer span a:hover {
+    color: white;
+}
