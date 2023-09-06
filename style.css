@@ -1,0 +1,96 @@
+body{
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:active{
+    color: white;
+}
+
+.link li{
+    margin-left: 0px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.header{
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 30%;
+    margin-left: 15px;
+}
+
+.frame{
+    background-image: url(Desktop\ Wallpaper\ Wall\ E\,\ Pixel\ Artwork\,\ Hd\ Image\,\ Picture\,\ Background\,\ Yx92ca.jpeg);
+    height: 475px;
+    border-style: dashed;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.experience li{
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.experience a:visited{
+    color: white;
+}
+
+.experience a:hover{
+    color: grey;
+}
+
+.experience a:active{
+    color: white;
+}
+
+.footerexperience{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 105px;
+    font-style: italic;
+}
+
+.footerexperience2{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.footerexperience3{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 35px;
+    font-style: italic;
+}
+
+.index{
+    text-align: center;
+    font-size: 120%;
+}
+
+.index li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+#welcome{
+    font-size: 200%;
+}
