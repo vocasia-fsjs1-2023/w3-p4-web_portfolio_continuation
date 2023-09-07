@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url('background.jpg');
+}
+.area {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.left {
+    width: 30%;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+.left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.left .kontak {
+    margin-top: 35px;
+    padding: 0 30px;
+}
+.kontak h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.kontak h5 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.kontak p {
+    font-size: 17px;
+}
+.skill h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.skill ul li {
+    font-size: 17px;
+    text-align: left;
+    margin: 0 30px;
+}
+.right {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+.right .header {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: brown;
+}
+.about h1 {
+    font-size: 35px;
+    background-color: pink;
+    padding: 10px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    text-align: center;
+}
+.about p {
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px;
+}
+.education {
+    margin-top: 10px;
+}
+.education h1 {
+    font-size: 35px;
+    background-color: pink;
+    padding: 10px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    text-align: center;
+}
+.edu {
+    position: relative;
+    margin: 30px 0;
+}
+.edu h4 {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0 10px;
+}
+.edu span {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 15px;
+}
+.experience {
+    margin-top: 10px;
+
+}
+.experience h1 {
+    font-size: 35px;
+    background-color: pink;
+    padding: 10px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    text-align: center;
+}
+.experience h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.experience ul li {
+    font-size: 15px;
+    margin: 5px 30px;
+}
