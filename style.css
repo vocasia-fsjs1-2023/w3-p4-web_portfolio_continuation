@@ -1,0 +1,74 @@
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    border: 1px;
+    border-radius: 25px;
+    background: rgba(40, 177, 136, 0.712);
+        
+}
+
+img {
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+h3 {
+    /* border: 5px; */
+    border-radius: 25px;
+    background: rgba(40, 177, 136, 0.712);
+    text-align: center;
+
+}
+
+.objective {
+
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+.education {
+    text-align: center;
+}
+
+.experience {
+    text-align: center;
+
+}
+
+.achievement {
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+}
+
+.contact {
+    text-align: center
+}
+
+ul, li{
+    list-style: none;
+}
