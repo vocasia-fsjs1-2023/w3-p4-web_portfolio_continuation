@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/f2/47/2f/f2472f9bc4419f3d0b349da5071452f4.jpg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+img {
+    /* margin-right: 15px; */
+    height: 150px;
+    width: 150px;
+    border: 4px solid #61b0b7;
+    border-radius: 100%;
+}
+
+div h4 {
+    background-color: #bfcbcd;
+    color: #1f5b8f;
+    padding: 3px 5px 3px 5px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+
+.container {
+    border: 5px solid rgb(124, 137, 178);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 600px;
+    color: #253f42;
+}
+
+.profil {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #40607d;
+    border-radius: 10px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.profil h1 {
+    color: #ffffff;
+}
+
+.kontak {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 14px;
+
+}
+
+.kontak a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.kontak i {
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.bi-envelope-fill {
+    color: rgb(239, 186, 117);
+}
+
+.bi-person-lines-fill {
+    color: rgb(60, 185, 110);
+}
+
+.bi-geo-alt-fill {
+    color: rgb(230, 104, 104);
+}
+
+.bi-github {
+    color: rgb(19, 18, 18);
+}
