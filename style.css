@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 70%;
+    background: #FAFAD2;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+    border-left: 20px solid #FAFAD2;
+    border-right: 50px solid #FAFAD2;
+}
+.container .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+.container .top .img {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+    border-radius: 50%;
+}
+.container .top .profile_name {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profile_name h3 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+.container .top .profile_name h3 span {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+.container .contentbox {
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 30px 30px;
+}
+.container .contentbox h3 {
+    border-left: 4px solid #CD853F;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+h5 {
+   color: #A0522D; 
+}
+h4 {
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.kemampuan_kompetensi li span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+p {
+    font-style: 300;
+    text-align: justify;
+}
+.rightside {
+    padding-left: 40px;
+}
+h6 {
+    color: #333;
+    font-weight: 500;
+}
+.box h4 {
+    color: #A0522D;
+    font-weight: 600;
+}
+.box h5 {
+    color: #333;
+    font-weight: 600;
+}
+.box p {
+    color: #333;
+    font-weight: 500;
+    font-size: 13px;
+}
