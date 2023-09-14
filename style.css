@@ -96,54 +96,15 @@ h6 {
     color: #333;
     font-weight: 500;
 }
-.container .mata_kuliah_1 h4 {
+.box h4 {
     color: #A0522D;
     font-weight: 600;
 }
-.container .mata_kuliah_1 h5 {
+.box h5 {
     color: #333;
     font-weight: 600;
 }
-.container .mata_kuliah_1 p {
-    color: #333;
-    font-weight: 500;
-    font-size: 13px;
-}
-.container .mata_kuliah_2 h4 {
-    color: #A0522D;
-    font-weight: 600;
-}
-.container .mata_kuliah_2 h5 {
-    color: #333;
-    font-weight: 600;
-}
-.container .mata_kuliah_2 p {
-    color: #333;
-    font-weight: 500;
-    font-size: 13px;
-}
-.container .mata_kuliah_3 h4 {
-    color: #A0522D;
-    font-weight: 600;
-}
-.container .mata_kuliah_3 h5 {
-    color: #333;
-    font-weight: 600;
-}
-.container .mata_kuliah_3 p {
-    color: #333;
-    font-weight: 500;
-    font-size: 13px;
-}
-.container .mata_kuliah_4 h4 {
-    color: #A0522D;
-    font-weight: 600;
-}
-.container .mata_kuliah_4 h5 {
-    color: #333;
-    font-weight: 600;
-}
-.container .mata_kuliah_4 p {
+.box p {
     color: #333;
     font-weight: 500;
     font-size: 13px;
